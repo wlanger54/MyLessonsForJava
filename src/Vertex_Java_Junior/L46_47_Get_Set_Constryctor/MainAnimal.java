@@ -33,12 +33,23 @@ public class MainAnimal {
 
 
 
+///// Это метод для "примера с методом" (который ниже).  Это очень удобно !  тут явный конструктор !
 
-
-
-
-
+        Dog dog1 = new Dog("Graf", "black");
+        pereklichka(dog1);
+        Dog dog2 = new Dog("Chapi", "grey");
+        pereklichka(dog2);
 
     }
+
+
+    ///// Пример с методом если будет много собак
+
+
+        public static void pereklichka(Dog dogs) {
+            System.out.println( dogs.getName());
+            System.out.println( dogs.getColor());
+
+        }
 
 }
