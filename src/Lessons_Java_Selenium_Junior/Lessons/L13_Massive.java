@@ -51,16 +51,29 @@ public class L13_Massive {
             System.out.println(arr2[p]);
         }
 
-
-
-// Узнать размер массива
+        // Узнать размер массива
 
         System.out.println();
         System.out.println(arr2.length);
+        System.out.println();
 
 
+///// Заполняем массив значением
 
+        // i - это номер индекса , b - значение которое присваеваеться индексу
 
+        int[] bigArr = new int[10];    // Выделили память под массив
+
+        for (int i = 0, b=2; i < bigArr.length; i++, b+=2) {
+            bigArr[i]=b;
+        }
+
+       // Теперь циклом for выводим то чем заполнили масив
+
+       for (int a = 0; a < bigArr.length ; a++){
+           System.out.print(bigArr[a] + " ");
+
+       }
 
 
 

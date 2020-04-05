@@ -41,6 +41,20 @@ public class L20_21_break_continue {
         }
 
 
+
+///// for + break
+
+        for (int j = 0; j < 10 ; j++) {
+            if (j==5){
+                break;
+            }
+            System.out.println(j);
+        }
+
+
+
+
+
 //    Оператор continue
 
         System.out.println();
@@ -51,10 +65,6 @@ public class L20_21_break_continue {
                 continue;
             System.out.println("   " + con + ": я выплняюсь всего два раза !");
         }
-
-
-
-
 
 
 
